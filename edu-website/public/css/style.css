@@ -1,0 +1,547 @@
+/* GERAIS */
+html {
+    scroll-behavior: smooth;
+}
+ 
+:target {
+    scroll-margin-top: .8em;
+}
+*, :before, :after {
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 13px;
+	color: #212121;
+	background: #f2f4f6;
+	margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.linha{
+	width: 92.5%;
+	margin: 0 3.5%;
+	overflow: auto;
+	padding: 0px 0;
+}
+.coluna{
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+/* HEADER */
+img.logo_flix{
+    font-weight: bold;
+    font-size: 30px;
+    width: 40px;
+}
+p.logo_nome{
+    font-weight: bold;
+    font-size: 30px;
+    color: #07485e;
+    position: absolute;
+    margin: -38px 0px 0px 50px;
+}
+.fundo-header{
+    background: #ffffff;
+}
+.col1{
+    width: 40%;
+    height: 80px;
+    padding-top: 20px;
+    background: #ffffff;
+}
+.col2{
+    width: 60%;
+    height: 80px;
+    background: #ffffff;
+}
+ul.menu{
+    float: right;
+    margin: 30px 20px 0px 0px;
+    padding: 0px;
+}
+ul.menu li{
+    list-style: none;
+    margin-left: 20px;
+    display: inline-block;
+}
+ul.menu li a{
+    color: #09607d;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* CORPO - HOME */
+.fundo_banner{
+    background: #09607d;
+}
+.cast1{
+    width: 50%;
+    height: 660px;
+    background: #09607d;
+}
+.cast1{
+    width: 50%;
+    height: 660px;
+    background: #09607d;
+}
+.box_form{
+    width: 400px;
+    display: inline-block;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 50px 20px 20px 270px;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.2);
+}
+.box_form2{
+    width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 80px auto 80px auto;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.2);
+}
+table{
+    width: 100%;
+    display: inline-block;
+}
+.ipt{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #cdcdcd;
+    background: #eeeeee;
+    padding-left: 10px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 5px;
+}
+.slc{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #cdcdcd;
+    background: #eeeeee;
+    padding-left: 10px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 5px;
+}
+.button_submit{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background: orange;
+    color: #f2f4f6;
+    text-transform: uppercase;
+    border: 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+span.txt{
+    font-weight: bold;
+    color: #212121;
+}
+.fundo_corpo{
+    background: #f2f4f6;
+}
+/* FOOTER */
+p.termos{
+    margin: 20px auto;
+}
+p.master{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 100px;
+}
+p.seme{
+    font-size: 17px;
+    color: #f2f4f6;
+    margin-top: 0px;
+}
+/* LOGIN */
+p.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #212121;
+    margin: 0px 0px 40px 0px;
+}
+.box_form2{
+    width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 100px auto 100px auto;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.2);
+}
+p.recupera a{
+    font-weight: bold;
+    margin-top: 30px;
+    color: #09607d;
+}
+/* PAINEL */
+.linha_painel{
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #cdcdcd;
+}
+.col_painel1{
+    width: 50%;
+    display: inline-block;
+    padding: 20px 0px 10px 0px;
+}
+p.number_cur{
+    font-size: 15px;
+    float: right;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.titulo_painel{
+    font-size: 25px;
+    font-weight: bold;
+}
+.bt_new_curso{
+    margin:  0px 0px 0px 0px;
+    padding: 20px 50px;
+    border-radius: 8px;
+    font-size: 17px;
+    float: right;
+    font-weight: bold;
+    background: orange;
+    color: #ffffff;
+    border: 0px;
+    cursor: pointer;
+}
+.bt_new_curso2{
+    margin:  0px 0px 0px 0px;
+    padding: 20px 50px;
+    border-radius: 8px;
+    font-size: 17px;
+    float: right;
+    font-weight: bold;
+    background: orange;
+    color: #ffffff;
+    border: 0px;
+    cursor: pointer;
+}
+.bt_new_curso3{
+    margin:  30px 0px 0px 0px;
+    padding: 20px 50px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    background: orange;
+    color: #ffffff;
+    border: 0px;
+    cursor: pointer;
+}
+ul.menu2{
+    float: right;
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+}
+ul.menu2 li{
+    list-style: none;
+    margin-left: 20px;
+    display: inline-block;
+}
+ul.menu2 li a{
+    color: #09607d;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* CURSOS */
+.linha_cursos{
+    width: 92.5%;
+	margin: 0 3.5%;
+	padding: 0px 0;
+}
+.corpo_cursos{
+    width: 100%;
+    margin-top: 30px;
+    display: inline-block;
+}
+.curso{
+    width: 323px;
+    display: inline-block;
+    margin: 0px 30px 30px 0px;
+    border-radius: 8px;
+    border: solid 1px #cdcdcd;
+}
+.imagem_curso{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px 8px 0px 0px;
+    background: #09607d;
+}
+.descricao{
+    width: 100%;
+    display: inline-block;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 0px 0px 8px 8px;
+}
+.desc_curso{
+    width: 100%;
+    display: inline-block;
+}
+p.nome_curso{
+    font-weight: bold;
+    font-size: 18px;
+}
+.cur1{
+    width: 50%;
+    display: inline-block;
+}
+p.preco{
+    font-weight: bold;
+    font-size: 12px;
+}
+p.alunos{
+    font-weight: bold;
+    font-size: 12px;
+    float: right;
+}
+button.bt_curso_opt{
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    border-radius: 8px;
+    background: orange;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/* INSCRITOS */
+.base_lista{
+    margin-top: 50px;
+}
+p.list_txt{
+    font-weight: bold;
+    margin: 0px;
+}
+td.td1{
+    width: 157px;
+}
+td.td2{
+    width: 157px;
+}
+td.td3{
+    width: 157px;
+}
+td.td4{
+    width: 157px;
+}
+td.td5{
+    width: 257px;
+}
+td.td6{
+    width: 57px;
+}
+td.td7{
+    width: 157px;
+}
+td.td8{
+    width: 157px;
+}
+td.td9{
+    width: 157px;
+}
+.list_tx{
+    margin: 0px;
+}
+hr.rule{
+    width: 100%;
+}
+ul.out{
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+ul.out li{
+    list-style: none;
+    margin-left: 10px;
+    display: inline-block;
+}
+button.edt_bt{
+    width: 60px;
+    height: 25px;
+    border-radius: 8px;
+    border: 0px;
+    color: #ffffff;
+    background: green;
+    font-size: 12px;
+    cursor: pointer;
+}
+button.exc_bt{
+    width: 60px;
+    height: 25px;
+    border-radius: 8px;
+    border: 0px;
+    color: #ffffff;
+    background: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+.lado_a{
+    width: 50%;
+    display: inline-block;
+}
+.lado_b{
+    width: 50%;
+    display: inline-block;
+}
+.exb_img_curso{
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    background: #09607d;
+    margin-top: 50px;
+}
+.linha_exb{
+    margin-top: 20px;
+}
+p.titulo_curso{
+    font-weight: bold;
+    font-size: 25px;
+    color: #212121;
+}
+.lin1{
+    width: 50%;
+    display: inline-block;
+}
+p.xx1{
+    font-size: 18px;
+    font-weight: bold;
+}
+p.xx2{
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    margin-top: 20px;
+}
+textarea.texta{
+    width: 100%;
+    height: 100px;
+    background: #eeeeee;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px #cdcdcd;
+    border-radius: 8px;
+}
+/* MODAL CADASTRO CURSO */
+.modal_cdt{ 
+	background-color: rgba(0, 0, 0, 0.1); 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%;
+	z-index: 180; 
+	display: none;
+}
+.box_cdt{
+	width: 600px;
+	/* height: 500px; */
+	border-radius: 8px;
+	background: white;
+	box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.1);
+	margin: 4% auto 30px auto;
+	padding: 40px;
+ 	z-index: 10;
+}
+p.fechar{
+    color: #212121;
+    font-size: 25px;
+    position: absolute;
+    margin: 70px 0px 0px 1100px;
+    cursor: pointer;
+}
+.col_model1{
+    width: 50%;
+    padding-right: 5px;
+    display: inline-block;
+}
+.col_model2{
+    width: 50%;
+    padding-left: 5px;
+    display: inline-block;
+}
+td.tx1{
+    width: 336px;
+}
+td.tx2{
+    width: 236px;
+}
+td.tx3{
+    width: 236px;
+}
+td.tx4{
+    width: 236px;
+}
+td.tx5{
+    width: 136px;
+}
+td.tx6{
+    width: 236px;
+}
+/* CONFFIRMA */
+.linha_inform{
+    width: 100%;
+    padding: 200px 200px;
+    display: inline-block;
+}
+
+/* ESTRUTURA MOBILE */
+@media all and (min-width:2px) and (max-width:742px) {
+    ul.menu{
+        float: right;
+        margin: 35px 0px 10px 0px;
+        padding: 0px;
+    }
+    ul.menu li{
+        list-style: none;
+        margin-left: 15px;
+        display: inline-block;
+    }
+    ul.menu li a{
+        color: #09607d;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .cast1{
+        width: 100%;
+        height: 460px;
+        background: #09607d;
+    }
+    .cast2{
+        width: 100%;
+        height: 660px;
+        background: #09607d;
+    }
+    .box_form{
+        width: 100%;
+        display: inline-block;
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 8px;
+        margin: 0px 0px 0px 0px;
+    }
+    p.master{
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        color: #ffffff;
+        margin-top: 100px;
+    }
+
+    .box_form2{
+        width: 100%;
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 8px;
+        margin: 80px auto 190px auto;
+    }
+}
